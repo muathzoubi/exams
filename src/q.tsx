@@ -78,6 +78,7 @@ const Qutions = () => {
                 alert(` نتيجتك هي : ${score} / ${qs.length}`);
                 setCount(0);
               }
+              setChecked(-1)
             }}
           >
             التالي
